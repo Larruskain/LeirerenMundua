@@ -1,0 +1,163 @@
+.CountriesPage {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .countries-list {
+    max-height: 400px; /* Set a maximum height for the list */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: Add a border for clarity */
+    padding: 10px; /* Optional: Add padding for spacing */
+    background-color: #f9f9f9; /* Optional: Add a light background color */
+    border-radius: 8px; /* Optional: Rounded corners for aesthetics */
+  }
+
+  .countries-list::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .countries-list::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light background for the scrollbar track */
+    border-radius: 8px;
+  }
+  
+  .countries-list::-webkit-scrollbar-thumb {
+    background: #888; /* Darker thumb for better visibility */
+    border-radius: 8px;
+  }
+  
+  .countries-list::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker color on hover */
+  }
+
+  .country-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 10px 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .country-info {
+    text-align: left;
+  }
+  
+  .country-name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .country-state,
+  .country-date {
+    display: block;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .visited-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .planned-button {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .not-visited-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .action-button:hover {
+    opacity: 0.9;
+  }
+
+  .status-dropdown {
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  .status-dropdown:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+
+  .photo-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .close-button {
+    background: #ff5f5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .photo-thumbnail {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  
