@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e33f78bb2c34d9eebb3f893aae2e5a9",
+    "revision": "8ac19c8560bbb219ea18f8ed51a199a4",
     "url": "/LeirerenMundua/index.html"
   },
   {
-    "revision": "300570a71b635c929582",
+    "revision": "9b600c1b4ddbb8cf282e",
     "url": "/LeirerenMundua/static/css/main.ad2d7cf0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LeirerenMundua/static/js/3.8a71b4f4.chunk.js"
   },
   {
-    "revision": "300570a71b635c929582",
-    "url": "/LeirerenMundua/static/js/main.6e685c97.chunk.js"
+    "revision": "9b600c1b4ddbb8cf282e",
+    "url": "/LeirerenMundua/static/js/main.107f13e3.chunk.js"
   },
   {
     "revision": "68ad7eecf47857d80b08",

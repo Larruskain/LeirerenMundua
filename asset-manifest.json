@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LeirerenMundua/static/css/main.ad2d7cf0.chunk.css",
-    "main.js": "/LeirerenMundua/static/js/main.6e685c97.chunk.js",
-    "main.js.map": "/LeirerenMundua/static/js/main.6e685c97.chunk.js.map",
+    "main.js": "/LeirerenMundua/static/js/main.107f13e3.chunk.js",
+    "main.js.map": "/LeirerenMundua/static/js/main.107f13e3.chunk.js.map",
     "runtime-main.js": "/LeirerenMundua/static/js/runtime-main.16501517.js",
     "runtime-main.js.map": "/LeirerenMundua/static/js/runtime-main.16501517.js.map",
     "static/js/2.cf9b79f9.chunk.js": "/LeirerenMundua/static/js/2.cf9b79f9.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8a71b4f4.chunk.js": "/LeirerenMundua/static/js/3.8a71b4f4.chunk.js",
     "static/js/3.8a71b4f4.chunk.js.map": "/LeirerenMundua/static/js/3.8a71b4f4.chunk.js.map",
     "index.html": "/LeirerenMundua/index.html",
-    "precache-manifest.3a79f4e6139dd551efab11791ff841b1.js": "/LeirerenMundua/precache-manifest.3a79f4e6139dd551efab11791ff841b1.js",
+    "precache-manifest.61ba899abc81aee9fd001f1dbdd36b05.js": "/LeirerenMundua/precache-manifest.61ba899abc81aee9fd001f1dbdd36b05.js",
     "service-worker.js": "/LeirerenMundua/service-worker.js",
     "static/css/main.ad2d7cf0.chunk.css.map": "/LeirerenMundua/static/css/main.ad2d7cf0.chunk.css.map",
     "static/js/2.cf9b79f9.chunk.js.LICENSE.txt": "/LeirerenMundua/static/js/2.cf9b79f9.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.16501517.js",
     "static/js/2.cf9b79f9.chunk.js",
     "static/css/main.ad2d7cf0.chunk.css",
-    "static/js/main.6e685c97.chunk.js"
+    "static/js/main.107f13e3.chunk.js"
   ]
 }
