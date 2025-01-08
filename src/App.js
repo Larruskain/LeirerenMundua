@@ -8,15 +8,16 @@ import titleImage from './titleImage.png';
 
 function App() {
   const navigateToMap = () => {
-    console.log("Navigating to the map..."); // Placeholder for navigation logic
+    console.log("Navigating to the map...");
   };
 
   const navigateToList = () => {
-    console.log("Navigating to the list..."); // Placeholder for navigation logic
+    console.log("Navigating to the list...");
   };
 
   return (
-    <Router>
+    // Add basename to Router
+    <Router basename="/LeirerenMundua">
       <div className="App">
         <Routes>
           <Route
